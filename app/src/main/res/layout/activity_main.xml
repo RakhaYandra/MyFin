@@ -93,21 +93,6 @@
         android:layout_marginBottom="24dp"
         android:background="@color/colorPrimary" />
 
-    <!-- Refresh Button -->
-    <Button
-        android:id="@+id/refreshButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Refresh Transaksi"
-        android:textColor="@color/white"
-        android:paddingHorizontal="24dp"
-        android:paddingVertical="12dp"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:elevation="4dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
-        android:background="@color/hint" />
 
     <!-- Transaction List -->
     <ListView
