@@ -1,0 +1,16 @@
+<resources>
+    <color name="background">#F5F5F5</color>
+    <color name="item_background">#FFFFFF</color>       <!-- Light Gray Background -->
+    <color name="text">#1E88E5</color>              <!-- Primary Blue for Text -->
+    <color name="hint">#90CAF9</color>              <!-- Light Blue for Hint Text -->
+    <color name="white">#FFFFFF</color>             <!-- White for Button Text -->
+    <color name="divider">#BDBDBD</color>           <!-- Gray Divider Color -->
+
+    <color name="colorPrimary">#1E88E5</color> <!-- Blue -->
+    <color name="colorWhite">#FFFFFF</color>   <!-- White for logo, text, etc. -->
+
+    <color name="colorPrimaryDark">#1565C0</color>    <!-- Darker Blue -->
+    <color name="colorAccent">#90CAF9</color>         <!-- Accent Light Blue -->
+    <color name="button_color">#1E88E5</color>
+</resources>
+

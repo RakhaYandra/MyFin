@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Application Theme -->
+    <style name="Base.Theme.MyFin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme colors here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main App Theme -->
+    <style name="Theme.MyFin" parent="Base.Theme.MyFin">
+        <!-- This inherits from Base.Theme.MyFin -->
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item> <!-- Primary blue background -->
+    </style>
+</resources>

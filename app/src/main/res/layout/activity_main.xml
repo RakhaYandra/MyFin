@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nama Transaksi Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/namaInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <EditText
+            android:id="@+id/namaEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Transaksi"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:drawableStart="@drawable/ic_edit"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@android:color/white"
+            android:paddingBottom="8dp"
+            android:textSize="16sp"
+            android:importantForAccessibility="yes" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Jumlah Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/jumlahInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <EditText
+            android:id="@+id/jumlahEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:drawableStart="@drawable/ic_money"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@android:color/white"
+            android:paddingBottom="8dp"
+            android:textSize="16sp"
+            android:importantForAccessibility="yes" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Tanggal Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tanggalInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <EditText
+            android:id="@+id/tanggalEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal (YYYY-MM-DD)"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hint"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@android:color/white"
+            android:paddingBottom="8dp"
+            android:textSize="16sp"
+            android:importantForAccessibility="yes" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Add Transaction Button -->
+    <Button
+        android:id="@+id/tambahButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Transaksi"
+        android:textColor="@color/white"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimary" />
+
+    <!-- Refresh Button -->
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh Transaksi"
+        android:textColor="@color/white"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@color/hint" />
+
+    <!-- Transaction List -->
+    <ListView
+        android:id="@+id/transaksiListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp" />
+</LinearLayout>

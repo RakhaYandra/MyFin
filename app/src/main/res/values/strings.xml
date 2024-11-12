@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFin</string>
+    <string name="splash_screen_title">Welcome to MyFin</string>
+    <string name="main_screen_title">MyFin - Financial Tracker</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="transaction_name">Transaction Name</string>
+    <string name="transaction_amount">Amount</string>
+    <string name="transaction_date">Date (YYYY-MM-DD)</string>
+    <string name="add_button">Add</string>
+    <string name="no_transactions">No transactions available</string>
+</resources>
